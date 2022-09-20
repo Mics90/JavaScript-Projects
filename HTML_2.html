@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--Document type-->
+
+<html lang="en"> <!--html language--->
+
+<head> <!--head section-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Form</title>
+    <meta name="description" content="Contact Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/CSS_1.css">
+</head>
+<!--Head section end-->
+
+<!--Body section--->
+<body>
+
+      <!--Contact form section-->  
+        <form name="myForm" action="./action_page.php" onsubmit="return validateForm()" method="post"> 
+        <input name="name" type="text" class="feedback-input" placeholder="Name"  />   <!--Name-->
+        <input name="email" type="text" class="feedback-input" placeholder="Email" required/>  <!-- email-->
+        <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>  <!--Comment-->
+        <input type="submit" value="SUBMIT"/> <!--Submit button-->
+      </form><!--Contact form end -->
+
+
+
+
+
+
+
+    <script src="./JavaScript/JavaScript_2.js"></script>
+</body>
+
+</html>
